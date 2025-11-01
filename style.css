@@ -21,7 +21,7 @@
 #imageInput{
     cursor: pointer;
     font-size: 22px;
-    
+    color: white;
 }
 #imageInput:hover{
     cursor: pointer;
@@ -38,7 +38,7 @@
     border-radius: 10px;
 }
 #convertBtn:hover{
-    background-color: rgb(7, 155, 7);
+    background-color: rgb(5, 126, 5);
 }
 
 
@@ -46,7 +46,7 @@
 
 #outputBox{
     border: 2px solid black;
-    width: 750px;
+    width: 775px;
     height: 200px;
     background-color: rgb(0, 0, 0);
     margin-top: 100px;
