@@ -1,0 +1,60 @@
+.body{
+    background-image: url('images/body-image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parentBox{
+    margin: auto;
+    border: 2px solid black;
+    width: 800px;
+    height: 400px;
+    padding: 50px 20px;
+    margin-top: 100px;
+    border: none;
+    background-image: url('images/div-box-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: 0 0 50px rgb(247, 247, 151); 
+}
+
+#imageInput{
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+#imageInput:hover{
+    cursor: pointer;
+}
+
+#convertBtn{
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(17, 143, 17);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#convertBtn:hover{
+    background-color: rgb(7, 155, 7);
+}
+
+
+
+
+#outputBox{
+    border: 2px solid black;
+    width: 750px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 100px;
+    border-radius: 5px;
+    color: green;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px 10px;
+    overflow: auto;
+    font-size: 17px;
+}
